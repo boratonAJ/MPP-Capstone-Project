@@ -17,9 +17,10 @@ My goal is to predict whether a mortgage application was accepted (meaning the l
 I am  trying to predict the variable `accepted `(a binary variable) for each row of the test data set.
 
 My job is to:
-*Train a model using the inputs in `train_values.csv` and the labels `train_labels.csv`
-*Predict value for each row in `test_values.csv` for which i don't know the true value of accepted.
-*Output My predictions in a format that matches `submission_format.csv` exactly.
+
+* Train a model using the inputs in `train_values.csv` and the labels `train_labels.csv`
+* Predict value for each row in `test_values.csv` for which i don't know the true value of accepted.
+* Output My predictions in a format that matches `submission_format.csv` exactly.
 
 
 
@@ -151,7 +152,7 @@ The variables are as follows:
 * `minority_population_pct` - Percentage of minority population to total population for tract
 * `ffiecmedian_family_income` - FFIEC Median family income in dollars for the MSA/MD in which the tract is located (adjusted annually by FFIEC)
 * `tract_to_msa_md_income_pct` - % of tract median family income compared to MSA/MD median family income
-*`number_of_owner-occupied_units` - Number of dwellings, including individual condominiums, that are lived in by the owner
+* `number_of_owner-occupied_units` - Number of dwellings, including individual condominiums, that are lived in by the owner
 * `number_of_1_to_4_family_units` - Dwellings that are built to house fewer than 5 families
 
 # INDEX AND TARGET VARIABLE
@@ -163,7 +164,7 @@ The variables are as follows:
 
 Here's an example of one of the rows in the dataset so that you can see the kinds of values you might expect in the dataset. Most are categorical, a few are numerical, and there can be missing values.
 
-
+```
 |  row_id  |  0  |
 |  loan_type |  1 | 
 |  property_type  |  1  | 
@@ -187,7 +188,7 @@ Here's an example of one of the rows in the dataset so that you can see the kind
 | number_of_1_to_4_family_units | 1067 |
 | lender | 494 |  
 | co_applicant | False |
-
+```
 
 ## References
 ------------------------------------------------------------------------------
@@ -198,9 +199,9 @@ Here's an example of one of the rows in the dataset so that you can see the kind
 
 ## Author
 
--[Jean Salvi ](https://www.linkedin.com/in/jean-salvi-d-78aa9016b/)
+-[Ajayi Olabode](https://www.linkedin.com/in/boraton/)
 
 ---
 
 ## License & copyright
-Copyright (c) Jean Salvi ,lifelong learner |data science enthusiast
+Copyright (c) Ajayi Olabode, data science enthusiast
