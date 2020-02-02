@@ -192,7 +192,7 @@ Here's an example of one of the rows in the dataset so that you can see the kind
 
 ## References
 ------------------------------------------------------------------------------
- [FFIEC. Home Mortgage Disclosure Act](https://www.ffiec.gov/hmda/default.htm.)
+ [FFIEC. Home Mortgage Disclosure Act](https://www.ffiec.gov/hmda/default.html)
 
 
 
